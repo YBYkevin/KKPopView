@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		912129D319C12D7C00C8FD29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 912129D219C12D7C00C8FD29 /* Foundation.framework */; };
+		912129D519C12D7C00C8FD29 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 912129D419C12D7C00C8FD29 /* CoreGraphics.framework */; };
+		912129D719C12D7C00C8FD29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 912129D619C12D7C00C8FD29 /* UIKit.framework */; };
+		912129DD19C12D7C00C8FD29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 912129DB19C12D7C00C8FD29 /* InfoPlist.strings */; };
+		912129DF19C12D7C00C8FD29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 912129DE19C12D7C00C8FD29 /* main.m */; };
+		912129E319C12D7C00C8FD29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 912129E219C12D7C00C8FD29 /* AppDelegate.m */; };
+		912129E619C12D7C00C8FD29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912129E419C12D7C00C8FD29 /* Main.storyboard */; };
+		912129EB19C12D7C00C8FD29 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912129EA19C12D7C00C8FD29 /* Images.xcassets */; };
+		912129F219C12D7D00C8FD29 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 912129F119C12D7D00C8FD29 /* XCTest.framework */; };
+		912129F319C12D7D00C8FD29 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 912129D219C12D7C00C8FD29 /* Foundation.framework */; };
+		912129F419C12D7D00C8FD29 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 912129D619C12D7C00C8FD29 /* UIKit.framework */; };
+		912129FC19C12D7D00C8FD29 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 912129FA19C12D7D00C8FD29 /* InfoPlist.strings */; };
+		912129FE19C12D7D00C8FD29 /* KKPopViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 912129FD19C12D7D00C8FD29 /* KKPopViewTests.m */; };
+		91212A0919C12DA000C8FD29 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91212A0819C12DA000C8FD29 /* MainViewController.m */; };
+		91212A0E19C12E0200C8FD29 /* KKPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 91212A0B19C12E0200C8FD29 /* KKPopView.m */; };
+		91212A0F19C12E0200C8FD29 /* KKPopViewHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 91212A0D19C12E0200C8FD29 /* KKPopViewHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		912129F519C12D7D00C8FD29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 912129C719C12D7C00C8FD29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 912129CE19C12D7C00C8FD29;
+			remoteInfo = KKPopView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		912129CF19C12D7C00C8FD29 /* KKPopView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KKPopView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		912129D219C12D7C00C8FD29 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		912129D419C12D7C00C8FD29 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		912129D619C12D7C00C8FD29 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		912129DA19C12D7C00C8FD29 /* KKPopView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KKPopView-Info.plist"; sourceTree = "<group>"; };
+		912129DC19C12D7C00C8FD29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		912129DE19C12D7C00C8FD29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		912129E019C12D7C00C8FD29 /* KKPopView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KKPopView-Prefix.pch"; sourceTree = "<group>"; };
+		912129E119C12D7C00C8FD29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		912129E219C12D7C00C8FD29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		912129E519C12D7C00C8FD29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		912129EA19C12D7C00C8FD29 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		912129F019C12D7D00C8FD29 /* KKPopViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KKPopViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		912129F119C12D7D00C8FD29 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		912129F919C12D7D00C8FD29 /* KKPopViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KKPopViewTests-Info.plist"; sourceTree = "<group>"; };
+		912129FB19C12D7D00C8FD29 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		912129FD19C12D7D00C8FD29 /* KKPopViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KKPopViewTests.m; sourceTree = "<group>"; };
+		91212A0719C12DA000C8FD29 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		91212A0819C12DA000C8FD29 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		91212A0A19C12E0200C8FD29 /* KKPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPopView.h; sourceTree = "<group>"; };
+		91212A0B19C12E0200C8FD29 /* KKPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPopView.m; sourceTree = "<group>"; };
+		91212A0C19C12E0200C8FD29 /* KKPopViewHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KKPopViewHelper.h; sourceTree = "<group>"; };
+		91212A0D19C12E0200C8FD29 /* KKPopViewHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KKPopViewHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		912129CC19C12D7C00C8FD29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				912129D519C12D7C00C8FD29 /* CoreGraphics.framework in Frameworks */,
+				912129D719C12D7C00C8FD29 /* UIKit.framework in Frameworks */,
+				912129D319C12D7C00C8FD29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		912129ED19C12D7D00C8FD29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				912129F219C12D7D00C8FD29 /* XCTest.framework in Frameworks */,
+				912129F419C12D7D00C8FD29 /* UIKit.framework in Frameworks */,
+				912129F319C12D7D00C8FD29 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		912129C619C12D7C00C8FD29 = {
+			isa = PBXGroup;
+			children = (
+				912129D819C12D7C00C8FD29 /* KKPopView */,
+				912129F719C12D7D00C8FD29 /* KKPopViewTests */,
+				912129D119C12D7C00C8FD29 /* Frameworks */,
+				912129D019C12D7C00C8FD29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		912129D019C12D7C00C8FD29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				912129CF19C12D7C00C8FD29 /* KKPopView.app */,
+				912129F019C12D7D00C8FD29 /* KKPopViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		912129D119C12D7C00C8FD29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				912129D219C12D7C00C8FD29 /* Foundation.framework */,
+				912129D419C12D7C00C8FD29 /* CoreGraphics.framework */,
+				912129D619C12D7C00C8FD29 /* UIKit.framework */,
+				912129F119C12D7D00C8FD29 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		912129D819C12D7C00C8FD29 /* KKPopView */ = {
+			isa = PBXGroup;
+			children = (
+				91212A0A19C12E0200C8FD29 /* KKPopView.h */,
+				91212A0B19C12E0200C8FD29 /* KKPopView.m */,
+				91212A0C19C12E0200C8FD29 /* KKPopViewHelper.h */,
+				91212A0D19C12E0200C8FD29 /* KKPopViewHelper.m */,
+				912129E119C12D7C00C8FD29 /* AppDelegate.h */,
+				912129E219C12D7C00C8FD29 /* AppDelegate.m */,
+				912129E419C12D7C00C8FD29 /* Main.storyboard */,
+				91212A0719C12DA000C8FD29 /* MainViewController.h */,
+				91212A0819C12DA000C8FD29 /* MainViewController.m */,
+				912129EA19C12D7C00C8FD29 /* Images.xcassets */,
+				912129D919C12D7C00C8FD29 /* Supporting Files */,
+			);
+			path = KKPopView;
+			sourceTree = "<group>";
+		};
+		912129D919C12D7C00C8FD29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				912129DA19C12D7C00C8FD29 /* KKPopView-Info.plist */,
+				912129DB19C12D7C00C8FD29 /* InfoPlist.strings */,
+				912129DE19C12D7C00C8FD29 /* main.m */,
+				912129E019C12D7C00C8FD29 /* KKPopView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		912129F719C12D7D00C8FD29 /* KKPopViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				912129FD19C12D7D00C8FD29 /* KKPopViewTests.m */,
+				912129F819C12D7D00C8FD29 /* Supporting Files */,
+			);
+			path = KKPopViewTests;
+			sourceTree = "<group>";
+		};
+		912129F819C12D7D00C8FD29 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				912129F919C12D7D00C8FD29 /* KKPopViewTests-Info.plist */,
+				912129FA19C12D7D00C8FD29 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		912129CE19C12D7C00C8FD29 /* KKPopView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91212A0119C12D7D00C8FD29 /* Build configuration list for PBXNativeTarget "KKPopView" */;
+			buildPhases = (
+				912129CB19C12D7C00C8FD29 /* Sources */,
+				912129CC19C12D7C00C8FD29 /* Frameworks */,
+				912129CD19C12D7C00C8FD29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KKPopView;
+			productName = KKPopView;
+			productReference = 912129CF19C12D7C00C8FD29 /* KKPopView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		912129EF19C12D7D00C8FD29 /* KKPopViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91212A0419C12D7D00C8FD29 /* Build configuration list for PBXNativeTarget "KKPopViewTests" */;
+			buildPhases = (
+				912129EC19C12D7D00C8FD29 /* Sources */,
+				912129ED19C12D7D00C8FD29 /* Frameworks */,
+				912129EE19C12D7D00C8FD29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				912129F619C12D7D00C8FD29 /* PBXTargetDependency */,
+			);
+			name = KKPopViewTests;
+			productName = KKPopViewTests;
+			productReference = 912129F019C12D7D00C8FD29 /* KKPopViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		912129C719C12D7C00C8FD29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = kevin;
+				TargetAttributes = {
+					912129EF19C12D7D00C8FD29 = {
+						TestTargetID = 912129CE19C12D7C00C8FD29;
+					};
+				};
+			};
+			buildConfigurationList = 912129CA19C12D7C00C8FD29 /* Build configuration list for PBXProject "KKPopView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 912129C619C12D7C00C8FD29;
+			productRefGroup = 912129D019C12D7C00C8FD29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				912129CE19C12D7C00C8FD29 /* KKPopView */,
+				912129EF19C12D7D00C8FD29 /* KKPopViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		912129CD19C12D7C00C8FD29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				912129EB19C12D7C00C8FD29 /* Images.xcassets in Resources */,
+				912129DD19C12D7C00C8FD29 /* InfoPlist.strings in Resources */,
+				912129E619C12D7C00C8FD29 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		912129EE19C12D7D00C8FD29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				912129FC19C12D7D00C8FD29 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		912129CB19C12D7C00C8FD29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				912129E319C12D7C00C8FD29 /* AppDelegate.m in Sources */,
+				91212A0919C12DA000C8FD29 /* MainViewController.m in Sources */,
+				91212A0E19C12E0200C8FD29 /* KKPopView.m in Sources */,
+				91212A0F19C12E0200C8FD29 /* KKPopViewHelper.m in Sources */,
+				912129DF19C12D7C00C8FD29 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		912129EC19C12D7D00C8FD29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				912129FE19C12D7D00C8FD29 /* KKPopViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		912129F619C12D7D00C8FD29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 912129CE19C12D7C00C8FD29 /* KKPopView */;
+			targetProxy = 912129F519C12D7D00C8FD29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		912129DB19C12D7C00C8FD29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				912129DC19C12D7C00C8FD29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		912129E419C12D7C00C8FD29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				912129E519C12D7C00C8FD29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		912129FA19C12D7D00C8FD29 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				912129FB19C12D7D00C8FD29 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		912129FF19C12D7D00C8FD29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		91212A0019C12D7D00C8FD29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91212A0219C12D7D00C8FD29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KKPopView/KKPopView-Prefix.pch";
+				INFOPLIST_FILE = "KKPopView/KKPopView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		91212A0319C12D7D00C8FD29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KKPopView/KKPopView-Prefix.pch";
+				INFOPLIST_FILE = "KKPopView/KKPopView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		91212A0519C12D7D00C8FD29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KKPopView.app/KKPopView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KKPopView/KKPopView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KKPopViewTests/KKPopViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		91212A0619C12D7D00C8FD29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KKPopView.app/KKPopView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KKPopView/KKPopView-Prefix.pch";
+				INFOPLIST_FILE = "KKPopViewTests/KKPopViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		912129CA19C12D7C00C8FD29 /* Build configuration list for PBXProject "KKPopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				912129FF19C12D7D00C8FD29 /* Debug */,
+				91212A0019C12D7D00C8FD29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91212A0119C12D7D00C8FD29 /* Build configuration list for PBXNativeTarget "KKPopView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91212A0219C12D7D00C8FD29 /* Debug */,
+				91212A0319C12D7D00C8FD29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		91212A0419C12D7D00C8FD29 /* Build configuration list for PBXNativeTarget "KKPopViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91212A0519C12D7D00C8FD29 /* Debug */,
+				91212A0619C12D7D00C8FD29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 912129C719C12D7C00C8FD29 /* Project object */;
+}
